@@ -7,7 +7,7 @@ import React, {
 } from 'react-native';
 const WIN = Dimensions.get('window');
 
-export default class CustomCircle extends Component {
+export default class CustomOverlay extends Component {
     constructor(props) {
         super(props);
 
@@ -62,7 +62,7 @@ export default class CustomCircle extends Component {
     }
 }
 
-CustomCircle.defaultProps = {
+CustomOverlay.defaultProps = {
     duration: 200,
     overlayColor: 'rgba(255, 255, 255, 0.4)'
 };
