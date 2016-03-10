@@ -1,0 +1,16 @@
+{
+  "name": "react-native-basic-overlay",
+  "version": "0.0.1",
+  "description": "basic overlay component",
+  "main": "RNBasicOverlay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "overlay"
+  ],
+  "author": "James Morton",
+  "license": "MIT"
+}
