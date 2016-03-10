@@ -17,6 +17,12 @@ export default class CustomOverlay extends Component {
         };
     }
 
+    componentDidMount() {
+        if (this.props.isOpen) {
+            this.animateVisibility(true);
+        }
+    }
+
     componentWillReceiveProps(nextProps) {
         if (!this.props.isOpen && nextProps.isOpen) {
             this.animateVisibility(true);
